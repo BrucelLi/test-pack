@@ -1,0 +1,19 @@
+{
+    "name": "lxl/hello",
+    "description": "echo hello world",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "lixiaolong",
+            "email": "lixiaolong@zdongpin.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Hello\\": "src/"
+        }
+    }
+}
